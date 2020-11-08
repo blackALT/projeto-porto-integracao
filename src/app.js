@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 
 const app = express()
 
-mongoose.connect("mongodb+srv://reprograma:reprogr@m@@cluster0.pgwdf.mongodb.net/clientes?retryWrites=true&w=majority", { 
+mongoose.connect("mongodb://localhost:27017/clientes", {
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 });

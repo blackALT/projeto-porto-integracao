@@ -1,4 +1,51 @@
-## Exercício Prático de Integração com o Mongodb:
+# {reprograma} - [s13] - Exercício Prático de Integração com o Mongodb
+
+### Estrutura do projeto
+
+```
+pasta-do-projeto
+├── src
+│   ├── controller
+│   ├── model
+│   ├── routes
+│   └── app.js
+├── server.js
+├── package.json
+```
+
+```
+* Esqueleto do projeto
+    * Models
+    * Controllers
+    * Rotas
+    * App.js
+    * Server.js
+```
+
+#### Clientes
+
+```Schema
+    nome (String)
+    email: (String)
+    cpf: (String)
+    dataNascimento: (String)
+    estadoCivil: (String)
+    telefone: (Number)
+    comprou: (Boolean)
+```
+
+#### Contratos entregues
+
+| Verbo        | Recurso                  | Descrição                              |
+| ------------ | ------------------------ | -------------------------------------- |
+| GET          | `/clientes`                | Retornar todos os clientes              |
+| GET          | `/clientes/compradores`            | Retornar apenas clientes compradores  |
+| GET         | `/clientes/{cpf}`                | Retornar apenas clientes por CPF          |
+| POST          | `/clientes`            | Cadastrar novo cliente        |
+
+---
+---
+
 
 ### Esse projeto prático possui como finalidade consolidar os conhecimentos adquiridos com o curso até este momento.
 
